@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de" style="height: 100%;margin: 0;">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/minimized.css">
+        <script src="/js/main.js"></script>
+        <title>Downloader</title>
+    </head>
+    <body style="height: 100%;margin: 0;">
+        <main>
+            <div id="main" class="bg" style="width: 100%; border-radius: 25px;">
+                <div class="content">
+                    <div id="menu">
+                        <div>
+                            <button type="button" onclick="Back();"><img src="/icons/open_in_new_FILL0_wght400_GRAD0_opsz24.svg" alt="Minimize"></button>
+                        </div>
+                        <div id="placehoulder_fullscreen_icon">
+                            <button type="button" onclick="button_fullscreen();"><img src="/icons/fullscreen_FILL0_wght400_GRAD0_opsz24.svg" alt="fullscreen"></button>
+                        </div>
+                        <template id="icon_fullscreen">
+                            <button type="button" onclick="button_fullscreen();"><img src="/icons/fullscreen_FILL0_wght400_GRAD0_opsz24.svg" alt="fullscreen"></button>
+                        </template>
+                        <template id="icon_exit_fullscreen">
+                            <button type="button" onclick="button_fullscreen_exit();"><img src="/icons/fullscreen_exit_FILL0_wght400_GRAD0_opsz24.svg" alt="exit fullscreen"></button>
+                        </template>
+                        <div>
+                            <button type="button" onclick="button_exit()"><img src="/icons/close_FILL0_wght400_GRAD0_opsz24.svg" alt="Close"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
