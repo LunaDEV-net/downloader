@@ -15,7 +15,7 @@ This means all the styles are contained in these files:
 
 
 All deleted since no use @luna @@2023-08-28  ->
-
+/*
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
 in those cases you can use the static font files for Nunito Sans:
@@ -179,7 +179,7 @@ in those cases you can use the static font files for Nunito Sans:
   static/NunitoSans_10pt_Expanded-BoldItalic.ttf
   static/NunitoSans_10pt_Expanded-ExtraBoldItalic.ttf
   static/NunitoSans_10pt_Expanded-BlackItalic.ttf
-
+*/
 Get started
 -----------
 
