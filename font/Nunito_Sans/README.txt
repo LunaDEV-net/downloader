@@ -11,7 +11,10 @@ Nunito Sans is a variable font with these axes:
 
 This means all the styles are contained in these files:
   NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf
-  NunitoSans-Italic-VariableFont_YTLC,opsz,wdth,wght.ttf
+  "NunitoSans-Italic-VariableFont_YTLC,opsz,wdth,wght.ttf" <- deleted since no use @luna @@2023-08-28
+
+
+All deleted since no use @luna @@2023-08-28  ->
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
